@@ -9,6 +9,6 @@
 
 ## Lista de Exercicios
 - [x]Exercicio 01 
-- [X]Exercicio 09 - Trabalahndo com eventos
+- [X]Exercicio 09 - Trabalhando com eventos
 
 ...
