@@ -3,8 +3,7 @@
 
 
 
-## Referências
-https://browserdiet.com/pt/
+
 
 
 ## Lista de Exercicios
