@@ -40,9 +40,11 @@ ul li a{
 }
 
 .vermelho{
-    color: red;
+    color: rgba(117, 7, 7, 0.877);
+    font-weight: bold;
 }
 
 .verde{
     color: green;
+    font-weight: bold;
 }
