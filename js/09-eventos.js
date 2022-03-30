@@ -80,8 +80,8 @@ formulario.addEventListener('submit', (event)=>{
         linha.setAttribute('class', 'vermelho');
     }
 
-   
-    
+   formulario.reset();
+   campoNome.focus();
 })
 
 
