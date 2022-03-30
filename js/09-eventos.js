@@ -36,7 +36,6 @@ noturno.addEventListener('click',()=>{
    
 })
 
-
 /* Exemplo 3 - Formulario*/
 const formulario = document.querySelector('form');
 const campoNome = formulario.querySelector('#nome');
@@ -65,11 +64,12 @@ formulario.addEventListener('submit', (event)=>{
     }
 
         
-    /* Criar elemento  */
+    /* Criar elemento tr */
     let linha = document.createElement('tr');
-    /* Criar conteudo */
-    linha.innerHTML = `<td>${nome}</td> <td>${media}</td> <td>${situacao}</td>`
+    /* Criar conteudo para o tr */
+    let alunos = linha.innerHTML = `<td>${nome}</td> <td>${media}</td> <td>${situacao}</td>`
 
+    // colocando o conteudo dentro da tabela 
     tabela.appendChild(linha);
     
 
@@ -79,6 +79,8 @@ formulario.addEventListener('submit', (event)=>{
     }else{
         linha.setAttribute('class', 'vermelho');
     }
+
+   
     
 })
 
