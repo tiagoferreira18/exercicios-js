@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+.modo-noturno{
+    background-color: rgb(36, 35, 35);
+    color:rgb(204, 126, 63);
+}
+
+.parag{
+    color:rgb(62, 140, 230)
+}
+
+a{
+    color: rgb(62, 140, 230);
+}
+
+.container{
+    padding: 50px;
+}
+
+footer{
+    text-align: justify;
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.vermelho{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
