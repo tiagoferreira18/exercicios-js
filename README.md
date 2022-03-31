@@ -5,6 +5,6 @@
 - [x]Exercicio 01
 - [x]Exercicio 02 
 - [x]Exercicio 03 
-- [X]Exercicio 09 - Trabalhando com eventos
+- [X]Trabalhando com eventos e localStorage
 
 ...
