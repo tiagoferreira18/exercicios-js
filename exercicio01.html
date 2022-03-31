@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 01</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/exercicio01.css">
 </head>
 <body>
+    <div class='container' >
+    <div class="jumbotron">
     <h1>Exercicio 01</h1>
     <hr>
 
@@ -15,6 +19,26 @@
     <p>O script deve calcular o limite de faltas (25% da carga horária) e exibir estas informações da seguinte forma:</p>
 
     <p>O Curso X tem a carga horária de X horas, e possui um limite de faltas de X horas.</p>
+
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="curso">Curso: </label>
+            <input class="form-control" type="text" name="curso" id="curso">
+        </div>
+        <div class="form-group">
+            <label for="horas">Carga Horária:</label>
+            <input class="form-control" type="number" name="horas" id="horas">
+            
+        </div>
+        <button class="btn btn-primary" type="submit">Calcular</button>
+    </form>
+
+    <p class="DOM"></p>
+</div>
+</div>
     <script src="js/exercicio01.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
+

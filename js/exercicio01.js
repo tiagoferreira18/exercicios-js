@@ -1,9 +1,28 @@
-let curso = prompt('Digite o nome do curso');
-let cargaHoraria = parseFloat(prompt('Digite a carga horária'))
+const formulario = document.querySelector('form');
+const campoCurso = formulario.querySelector('#curso');
+const campoHora = formulario.querySelector('#horas');
+const paragrafo = document.querySelector('.DOM')
 
-let limiteFaltas = cargaHoraria / 4;
+// let curso = prompt('Digite o nome do curso');
+// let cargaHoraria = parseFloat(prompt('Digite a carga horária'))
 
-console.log(curso);
-console.log(cargaHoraria);
+// let limiteFaltas = cargaHoraria / 4;
 
-console.log(`O Curso ${curso} tem a carga horária de ${cargaHoraria} horas, e possui um limite de faltas de ${limiteFaltas} horas.`);
+
+formulario.addEventListener('submit',(event)=>{
+    event.preventDefault();
+    
+    let curso = campoCurso.value;
+    let hora = parseFloat(campoHora.value);
+    
+    let limiteFaltas = hora/4;
+
+    paragrafo.innerHTML = `O Curso ${curso} tem a carga horária de ${hora} horas, e possui um limite de faltas de ${limiteFaltas} horas.`;
+
+    formulario.reset();
+    campoCurso.focus();
+
+})
+
+
+

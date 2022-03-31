@@ -1,0 +1,15 @@
+input{
+    max-width: 300px;
+}
+
+button{
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top: 100px;
+}
