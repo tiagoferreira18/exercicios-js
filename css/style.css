@@ -11,7 +11,7 @@ h1{
 }
 .modo-noturno{
     background-color: rgb(36, 35, 35);
-    color:rgb(204, 126, 63);
+    color:rgb(245, 234, 226);
 }
 
 .parag{
@@ -40,11 +40,11 @@ ul li a{
 }
 
 .vermelho{
-    color: rgba(117, 7, 7, 0.877);
+    color: rgb(247, 96, 96);
     font-weight: bold;
 }
 
 .verde{
-    color: green;
+    color: rgb(51, 160, 51);
     font-weight: bold;
 }
